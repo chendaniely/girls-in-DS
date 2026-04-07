@@ -39,6 +39,7 @@ theme: [solarized, themer.scss]
     -   Classifying a bank transaction as fraudulent or not
 
 ## KNN Classification
+
 <br></br>
 
 -   KNN (K-Nearest Neighbors) is a simple, intuitive classification algorithm.
@@ -63,12 +64,9 @@ The **training set** is a subset of our data that is used is to train or teach o
 
 Then, using our **test set**, we can evaluate how well our model performs on unseen data.
 
-<div style="text-align: center;">
-  <img src="https://images.tpointtech.com/tutorial/machine-learning/images/train-and-test-datasets-in-machine-learning.png" alt="" width="400"/>
-  <br>
-  <sub style="font-size: 0.3em;">[https://www.tpointtech.com/train-and-test-datasets-in-machine-learning](https://www.tpointtech.com/train-and-test-datasets-in-machine-learning)</sub>
-</div>
-
+::: {style="text-align: center;"}
+<img src="https://images.tpointtech.com/tutorial/machine-learning/images/train-and-test-datasets-in-machine-learning.png" width="400"/> <br> <sub style="font-size: 0.3em;"><https://www.tpointtech.com/train-and-test-datasets-in-machine-learning></sub>
+:::
 
 ## Activity
 
@@ -97,8 +95,8 @@ Then, using our **test set**, we can evaluate how well our model performs on uns
 -   Think about how we classified the unknown data point.
     -   What happens if we use $k=1$?
     -   What if we use $k=25$?
--   What could be a potential challenge with ties? 
-- What would happen if the classes are imbalanced (i.e., one color (class) dominates the sticky notes)?
+-   What could be a potential challenge with ties?
+-   What would happen if the classes are imbalanced (i.e., one color (class) dominates the sticky notes)?
 :::
 
 ------------------------------------------------------------------------
@@ -109,12 +107,10 @@ Then, using our **test set**, we can evaluate how well our model performs on uns
     -   Recommendation systems (e.g., recommending movies based on user preferences)
     -   Image classification (e.g., identifying objects in images)
     -   Medical diagnosis (e.g., classifying diseases based on symptoms)
-    
+
 <img src="https://www.financialexpress.com/wp-content/uploads/2021/04/netflixmain.png?w=1024" alt="Netflix" width="600"/>
 
-<sub>[https://www.financialexpress.com/](https://www.financialexpress.com/)</sub>
-
-
+<sub><https://www.financialexpress.com/></sub>
 
 ## Example
 
@@ -131,10 +127,10 @@ tumors <- read_csv("data/clean-wdbc.data.csv") |>
 
 head(tumors)
 ```
+
 ## Example
 
 ![](https://datasciencebook.ca/_main_files/figure-html/05-multiknn-3-1.png)
-
 
 ## 
 
@@ -159,7 +155,6 @@ new_obs <- tibble(Perimeter = 0.2, Concavity = 3.3)
 predict(tumor_fit, new_obs)
 ```
 
-
 ## Why Study Statistics?
 
 -   Classification is just one example of the many tasks we can accomplish with statistics and data science.
@@ -169,7 +164,7 @@ predict(tumor_fit, new_obs)
     -   Understand complex systems and phenomena
 -   If you're interested in working with real data, solving meaningful problems, and making data-driven decisions, consider studying Statistics or Data Science!
 
-## UBC Girls in Data Science Camp
+## UBC Girls in Data Science Camp{.hidden}
 
 -   Dates: July 7-9, 2025
 -   Time: 10am-3pm
@@ -183,6 +178,13 @@ predict(tumor_fit, new_obs)
 ::: {style="display: flex; justify-content: center; align-items: center; gap: 2em;"}
 <https://forms.gle/i3LsjobEhaBTzCpKA>
 :::
+
+## Data Science Major at UBC
+
+- "Data science is the process of generating insight from data through reproducible and transparent processes."
+- First cohort of students began in fall 2025! 
+- Jointly offered by Statistics + Computer Science 
+- Possible career paths include: Data Scientist, Data Analyst, ML Engineer etc.
 
 ## 
 
