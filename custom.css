@@ -1,0 +1,122 @@
+/* =========================
+   GLOBAL TYPOGRAPHY (FORCE FIX)
+   ========================= */
+
+html, body {
+  font-size: 19px !important;
+  line-height: 1.65;
+}
+
+/* Quarto content containers */
+.quarto-container,
+.quarto-page,
+.content,
+.main-content {
+  font-size: 1.05rem !important;
+}
+
+/* Headings */
+h1 { font-size: 2.4rem !important; }
+h2 { font-size: 2rem !important; }
+h3 { font-size: 1.5rem !important; }
+
+
+/* =========================
+   NAVBAR BASE
+   ========================= */
+
+.navbar {
+  background-color: #343963 !important;
+  padding: 1rem 1.2rem !important;
+  font-size: 1.2rem !important;
+}
+
+/* Brand */
+.navbar-brand {
+  font-size: 2rem !important;
+  font-weight: 600 !important;
+}
+
+/* Default nav links */
+.navbar .nav-link,
+.navbar-nav .nav-link,
+.navbar a {
+  color: #ffffff !important;
+  font-size: 1.25rem !important;
+  font-weight: 500 !important;
+}
+
+/* Hover state */
+.navbar .nav-link:hover,
+.navbar-nav .nav-link:hover,
+.navbar a:hover {
+  color: #C9A7A7 !important;
+}
+
+/* ACTIVE / CURRENT PAGE (FIXED) */
+.navbar .nav-link.active,
+.navbar-nav .nav-link.active,
+.navbar .nav-link[aria-current="page"] {
+  color: #C9A7A7 !important;
+}
+
+/* Focus state */
+.navbar .nav-link:focus,
+.navbar-nav .nav-link:focus {
+  color: #C9A7A7 !important;
+}
+
+/* Dropdown / expanded state */
+.navbar .nav-link.show {
+  color: #C9A7A7 !important;
+}
+
+
+/* =========================
+   GLOBAL LINKS
+   ========================= */
+
+a {
+  color: #C9A7A7;
+  font-size: 1.05rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #C9A7A7;
+}
+
+a:focus {
+  color: #C9A7A7;
+  outline: 2px solid #C9A7A7;
+  outline-offset: 2px;
+}
+
+
+/* =========================
+   SIDEBAR
+   ========================= */
+
+.sidebar,
+.sidebar-nav,
+.sidebar-menu {
+  font-size: 1.1rem !important;
+}
+
+
+/* =========================
+   SPACING IMPROVEMENTS
+   ========================= */
+
+p {
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.3rem;
+}

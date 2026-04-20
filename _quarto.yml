@@ -1,0 +1,64 @@
+project:
+  type: website
+  output-dir: docs
+
+  preview:
+    port: 12345
+    browser: true
+
+  render:
+    - "./*.qmd"
+    - "notes/*.qmd"
+    - "./README.md"
+
+website:
+  title: "Girls in Data Science"
+  site-url: https://your-site-url-here/
+  repo-actions: [edit, issue, source]
+  open-graph: true
+  twitter-card: true
+  page-navigation: true
+  bread-crumbs: true
+
+  navbar:
+    logo: notes/img/logo.png
+    logo-alt: "Girls in Data Science logo"
+
+    right:
+      - icon: github
+        href: https://github.com/katieburak/girls-in-DS/
+        aria-label: GitHub
+
+  sidebar:
+    style: docked
+    search: true
+
+    contents:
+      - section: "Notes"
+        contents:
+          - text: "Day 1"
+            href: notes/day1.qmd
+          - text: "Day 2"
+            href: notes/day2.qmd
+          - text: "Day 3"
+            href: notes/day3.qmd
+
+format:
+  html:
+    css: custom.css
+
+    toc: true
+    toc-depth: 3
+    smooth-scroll: true
+    number-sections: false
+
+    grid:
+      sidebar-width: 300px
+      body-width: 960px
+      margin-width: 275px
+      gutter-width: 1.2em
+
+editor:
+  render-on-save: true
+  markdown:
+    wrap: sentence
