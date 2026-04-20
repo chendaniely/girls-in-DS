@@ -1,24 +1,26 @@
 /* =========================
-   GLOBAL TYPOGRAPHY (FORCE FIX)
+   GLOBAL TYPOGRAPHY (SAFE VERSION)
    ========================= */
 
-html, body {
-  font-size: 19px !important;
+/* Use HTML for base sizing (keeps Quarto grid stable) */
+html {
+  font-size: 16px;
+}
+
+body {
   line-height: 1.65;
 }
 
-/* Quarto content containers */
-.quarto-container,
-.quarto-page,
-.content,
-.main-content {
-  font-size: 1.05rem !important;
+/* Only target text, NOT layout containers */
+p,
+li {
+  font-size: 1.05rem;
 }
 
 /* Headings */
-h1 { font-size: 2.4rem !important; }
-h2 { font-size: 2rem !important; }
-h3 { font-size: 1.5rem !important; }
+h1 { font-size: 2.4rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
 
 
 /* =========================
@@ -37,7 +39,7 @@ h3 { font-size: 1.5rem !important; }
   font-weight: 600 !important;
 }
 
-/* Default nav links */
+/* Nav links */
 .navbar .nav-link,
 .navbar-nav .nav-link,
 .navbar a {
@@ -53,20 +55,19 @@ h3 { font-size: 1.5rem !important; }
   color: #C9A7A7 !important;
 }
 
-/* ACTIVE / CURRENT PAGE (FIXED) */
+/* Active page */
 .navbar .nav-link.active,
 .navbar-nav .nav-link.active,
 .navbar .nav-link[aria-current="page"] {
   color: #C9A7A7 !important;
 }
 
-/* Focus state */
+/* Focus */
 .navbar .nav-link:focus,
 .navbar-nav .nav-link:focus {
   color: #C9A7A7 !important;
 }
 
-/* Dropdown / expanded state */
 .navbar .nav-link.show {
   color: #C9A7A7 !important;
 }
@@ -99,13 +100,13 @@ a:focus {
 
 
 /* =========================
-   SIDEBAR
+   SIDEBAR (SAFE)
    ========================= */
 
 .sidebar,
 .sidebar-nav,
 .sidebar-menu {
-  font-size: 1.1rem !important;
+  font-size: 1.05rem;
 }
 
 

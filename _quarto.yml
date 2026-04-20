@@ -54,7 +54,7 @@ format:
 
     grid:
       sidebar-width: 300px
-      body-width: 960px
+      body-width: 1150px
       margin-width: 275px
       gutter-width: 1.2em
 
