@@ -11,11 +11,11 @@ statistics. This camp is offered for girls and other gender minorities in grades
 
 ## General Information
 
-- Dates: July 7-9, 2025
+- Dates: July 6-8, 2027
 - Time: 10am-3pm 
 - Location: UBC Vancouver Campus
 - Instructor: [Katie Burak](https://katieburak.github.io/) (Contact: kburak@stat.ubc.ca)
-- Mentors: [Sky Sheng](https://awp.landfood.ubc.ca/people/graduate-students/kehan-sheng/)
+- Mentors: 
 
 Lunch will be provided each day for the participants.
 
@@ -39,7 +39,7 @@ A Jupyter notebook of the material is available [here](https://katieburak.github
 ## License
 
 License
-© 2025 Katie Burak, Jenny Lee and Mona Zhu 
+© 2026 Katie Burak, Jenny Lee and Mona Zhu 
 
 Software licensed under the MIT License, non-software content licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License. See the license file for more information.
 
