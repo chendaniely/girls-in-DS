@@ -11,6 +11,8 @@ statistics. This camp is offered for girls and other gender minorities in grades
 
 ## General Information
 
+2027 registration is now open! [Register here](https://ubc.ca1.qualtrics.com/jfe/form/SV_aVrXQA5wG44lh78).
+
 - Dates: July 6-8, 2027
 - Time: 10am-3pm 
 - Location: UBC Vancouver Campus
